@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+}
+
+
 /* When the screen is less than 600 pixels wide, hide all links, \
 except for the first one ("Home"). Show the link that contains should 
 open and close the topNav (.icon) */
@@ -28,8 +33,38 @@ open and close the topNav (.icon) */
   }
 }
 
+
+ header {
+  background-color: #ffc52f;
+  
+ }
+ 
+ header .title{
+  padding: 8px 0 0 20px;
+ }
+
+ .topNav .logo{
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  padding: 4px 0 0 8px;
+  
+ }
+
+
+ body{
+    display:block;
+    min-height: 100vh;
+    flex-direction:inherit;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  main{
+    display: block;
+    flex-direction: unset;
+  }
+
 .topNav {
-  background-color: #333;
+  background-color: #12284b;
   overflow: hidden;
 }
 
@@ -46,17 +81,19 @@ open and close the topNav (.icon) */
 
 /* Change the color of links on hover */
 .topNav a:hover {
-  background-color: #ddd;
+  background-color: #ffc52f;
   color: black;
 }
 
-/* Add a color to the active/current link */
+/*Add a color to the active/current link*/ 
 .topNav a.active {
-  background-color: #04aa6d;
-  color: white;
+  background-color: #3f495a;
+  color: #ffc52f;
 }
+
 
 /* Hide the link that should open and close the topnav on small screens */
 .topNav .icon {
   display: none;
 }
+
