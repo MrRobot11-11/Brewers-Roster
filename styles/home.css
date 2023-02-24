@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, \
+except for the first one ("Home"). Show the link that contains should 
+open and close the topNav (.icon) */
+@media screen and (max-width: 600px) {
+  .navBar a:not(:first-child) {
+    display: none;
+  }
+
+  .navBar a.icon {
+    float: right;
+    display: block;
+    color:white;
+  }
+
+  .navBar.responsive {
+    position: relative;
+  }
+
+  .navBar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .navBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+header {
+  background-color: #ffc52f;
+
+}
+
+header .title {
+  padding: 8px 0 0 20px;
+}
+
+.navBar .logo {
+  float: left;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  padding: 6px 8px 0 4px;
+
+}
+
+body {
+  display: block;
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  display: block;
+
+}
+
+
+
+.navBar {
+  background-color: #12284b;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navBar a:hover {
+  background-color: #ffc52f;
+  color: black;
+}
+
+/*Add an active class to highlight the current page*/
+.navBar a.active{
+  background-color:#3f495a;
+  color: #ffc52f;
+}
+
+/* Hide the link that should open and close the topNav on small screens */
+.navBar .icon {
+  display: none;
+}
+
+/* Body */
+
+.right h1 {
+  font-size: 3rem;
+  color: white;
+  padding: 8px 8px 0 25%;
+
+}
+
+.right p {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  padding: 30px 8px 0 8px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+
+
+}
+
+.left {
+  flex: 0 1 50%;
+  display: flex;
+  height: 100%;
+  max-width: 50%;
+
+
+}
+
+.right {
+  flex: 0 1 50%;
+  display: flex;
+  height: 100%;
+  max-width: 50%;
+  background-color: #3f495a;
+  flex-direction: column;
+}
+
+/*image*/
+#mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
