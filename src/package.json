@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "json-loader": "^0.5.7"
+  },
+  "dependencies": {
+    "config": "^3.3.9",
+    "esm": "^3.2.25","type": "module",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "node.js": "^0.0.1-security"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit1",
+    "start": "node -r esm server.js",
+    "server": "nodemon -r esm server.js"
+  },
+  "name": "slantz_evaluation",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRobot11-11/SLantz_Evaluation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrRobot11-11/SLantz_Evaluation/issues"
+  },
+  "homepage": "https://github.com/MrRobot11-11/SLantz_Evaluation#readme"
+}

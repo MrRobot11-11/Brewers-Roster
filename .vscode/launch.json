@@ -6,7 +6,7 @@
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
-            "file": "/home/riddick/github_projects/SLantz_Evaluation/index.html"
+            "file": "/home/riddick/github_projects/SLantz_Evaluation/src/index.html"
         }
     ]
 }

@@ -3,6 +3,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 body {
   display: block;
   min-height: 100vh;
@@ -110,6 +111,7 @@ section {
   object-fit: cover;
 }
 
+
 /* When the screen is less than 600 pixels wide, hide all links, \
 except for the first one ("Home"). */
 @media screen and (max-width: 600px) {
@@ -137,4 +139,22 @@ except for the first one ("Home"). */
     display: block;
     text-align: left;
   }
+
+.right h1 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 8px 8px 0 25%;
+
 }
+
+.right p {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding: 30px 8px 0 8px;
+}
+
+
+
+}
+
