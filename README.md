@@ -1,3 +1,3 @@
-# SLantz_Evaluation
+# Brewers Roster
 
 A simple website showing the brewers roster.  Mainly used html, css, and javascript to build the site.
