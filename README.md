@@ -1,3 +1,3 @@
 # Brewers Roster
 
-A simple website showing the brewers roster.  Mainly used html, css, and javascript to build the site.
+A simple website showing the Brewers roster.  Mainly used HTML, CSS, and JavaScript to build the site.
