@@ -1,12 +1,25 @@
+
+
 {
     "version": "0.2.0",
     "configurations": [
         {
             "name": "Launch index.html",
-            "type": "firefox",
+            "type": "chrome",
             "request": "launch",
             "reAttach": true,
-            "file": "/home/riddick/github_projects/SLantz_Evaluation/index.html"
+            "url": "http://localhost:8080",
+            "file": "/dev/Shared_Space/Github_Projects/Brewers-Roster/index.html",
+            "runtimeExecutable":"/var/lib/flatpak/exports/share/applications/com.google.Chrome.desktop"
+        },
+
+         {
+            "type": "chrome",
+            "request": "attach",
+            "port": 9222,
+            "name": "Attach Chrome",
+            "url": "http://localhost:8080/",
+            "webRoot": "${/dev/Shared_Space/Github_Projects/Brewers-Roster}"
         }
     ]
 }
